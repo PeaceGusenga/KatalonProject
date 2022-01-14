@@ -21,33 +21,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.opencart.com/index.php?route=cms/demo')
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_OpenCart - Demo/a_View Store Front'))
+WebUI.switchToWindowTitle('OpenCart - Demo')
 
-WebUI.switchToWindowTitle('Your Store')
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_OpenCart - Demo/a_View AdministrationLogin  Password demoVi_195f2b'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Your Store/a_Desktops'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Administration/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Your Store/a_Show All Desktops'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Dashboard/i_105.00_fa fa-eye'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Desktops/a_Show All Laptops  Notebooks'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Orders/a_test name'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Laptops  Notebooks/a_Show All Components'))
+WebUI.switchToWindowTitle('Customers')
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Components/a_Tablets'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/a_Affiliate'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Tablets/a_Software'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/a_History'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Software/a_Phones  PDAs'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/a_Transactions'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Phones  PDAs/a_Cameras'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/a_Reward Points'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Cameras/a_MP3 Players'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/a_IP Addresses'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_Cameras/a_Show All MP3 Players'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/i_Other Statuses_fa fa-save'))
 
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_MP3 Players/img_Add to Cart_img-responsive'))
-
-WebUI.click(findTestObject('Object Repository/Project_OR/Page_iPod Touch/i_Add to Cart_fa fa-star-o fa-stack-1x'))
+WebUI.click(findTestObject('Object Repository/Project_OR/Page_Customers/a_Logout'))
 
 WebUI.closeBrowser()
 
