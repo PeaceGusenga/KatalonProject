@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cycle through all Catalog tabs</description>
+   <name>View Catlog Tabs</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d25cd0cd-2e6c-4265-8cc3-821c5b7ad970</testCaseGuid>
+</TestCaseEntity>
